@@ -168,7 +168,7 @@ p {
 
 
 /* Media Queries Section */
-@media (max-width: 1024px) {
+@media (max-width: 540px) {
   #title {
     text-align: center;
   }
