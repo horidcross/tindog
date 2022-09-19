@@ -58,7 +58,7 @@ p {
 }
 
 .nav-link {
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   font-family: 'Montserrat-Light' sans-serif;
 }
 
@@ -68,6 +68,8 @@ p {
 
 /* Title Section */
 #title {
+  background-color: #FF4C68;
+  color: #fff;
   text-align: left;
 }
 
@@ -96,7 +98,7 @@ p {
  }
 
 .feature-box {
-  padding: 5%;
+  padding: 4.5%;
 }
 
 .icon {
@@ -124,9 +126,6 @@ p {
   margin: 20px;
 }
 
-.carousel-item {
-}
-
 /* Press Section */
 #press {
   background-color: #EF8172;
@@ -134,7 +133,7 @@ p {
 }
 
 .press-logo {
-  width: 13%;
+  width: 15%;
   margin: 20px 20px 50px;
 }
 
@@ -142,7 +141,6 @@ p {
 /* Pricing Section */
 #pricing  {
   padding: 100px;
-  background-color: #fff;
 }
 
 .price-text {
@@ -155,12 +153,10 @@ p {
 }
 
 /* CTA Section */
-#cta {
-}
+
 
 /* Footer Section */
-#footer {
-}
+
 
 .social-icon {
   margin: 20px 10px;
@@ -168,11 +164,11 @@ p {
 
 
 /* Media Queries Section */
-@media (max-width: 1024px) {
+@media (max-width: 1028px) {
   body {
     font-size: 1.5rem;
   }
-  
+
   #title {
     text-align: center;
   }
